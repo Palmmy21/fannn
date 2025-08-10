@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff0f5;
+}
+.pink-bg {
+    background-color: #ffe4ec;
+}
+.container {
+    text-align: center;
+    padding: 50px;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.btn-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.btn-unlock {
+    background-color: #ff99cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+}
+button, .btn {
+    background-color: #ff99cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+}
+button, .back-btn {
+    background-color: #ff99cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+}
+button:hover, .back-btn:hover {
+    background-color: #ff66b2;
+}
+
+button:hover, .btn:hover {
+    background-color: #ff66b2;
+}
+.error {
+    color: red;
+    font-size: 14px;
+}
+.gallery, .gift-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.gallery img, .gift-item img {
+    width: 150px;
+    border-radius: 10px;
+}
+.gift-item {
+    text-align: center;
+    max-width: 150px;
+}
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.home-btn {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #ff99cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.home-btn:hover {
+    background-color: #ff66b2;
+}
+
